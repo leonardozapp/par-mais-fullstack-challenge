@@ -1,12 +1,12 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
-import { BrowserRouter as Router, Route } from 'react-router-dom'
-import ApiHome from './components/swagger'
-import ChuckList from './components/chuckList'
-import Header from './components/Header'
-import { BioFinanceiraTheme, MuiThemeProvider } from '@parmais/par-ui-material'
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import ApiHome from './components/swagger';
+import ChuckList from './components/ChuckList';
+import Header from './components/Header';
+import { BioFinanceiraTheme, MuiThemeProvider } from '@parmais/par-ui-material';
 
-function App () {
+function App() {
   return (
     <Router>
       <MuiThemeProvider theme={BioFinanceiraTheme}>
@@ -15,8 +15,8 @@ function App () {
         <Route path="/docs/" component={ApiHome}/>
       </MuiThemeProvider>
     </Router>
-  )
+  );
 }
 
-const rootElement = document.getElementById('root')
-ReactDOM.render(<App/>, rootElement)
+const rootElement = document.getElementById('root');
+ReactDOM.render(<App/>, rootElement);

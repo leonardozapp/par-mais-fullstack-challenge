@@ -1,6 +1,6 @@
-import React from 'react'
-import { BioFinanceiraTheme, Grid, Header as ParHeader, Typography } from '@parmais/par-ui-material'
-import { Link } from 'react-router-dom'
+import React from 'react';
+import { BioFinanceiraTheme, Grid, Header as ParHeader, Typography } from '@parmais/par-ui-material';
+import { Link } from 'react-router-dom';
 
 const style = {
   color: 'white',
@@ -14,7 +14,7 @@ const style = {
   '&:visited': {
     color: 'white'
   }
-}
+};
 
 export default function Header () {
   return (
@@ -41,5 +41,5 @@ export default function Header () {
           </Typography>
         </Grid>
       </Grid>
-    </ParHeader>)
+    </ParHeader>);
 }
